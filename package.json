@@ -1,0 +1,29 @@
+{
+  "name": "mc-sleeper",
+  "version": "1.0.0",
+  "description": "Put your Minecraft server to sleep.",
+  "main": "server.js",
+  "dependencies": {
+    "minecraft-protocol": "^1.25.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auralius-dev/MCSleeper.git"
+  },
+  "keywords": [
+    "mc",
+    "minecraft",
+    "sleep"
+  ],
+  "author": "Auralius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auralius-dev/MCSleeper/issues"
+  },
+  "homepage": "https://github.com/auralius-dev/MCSleeper#readme"
+}
