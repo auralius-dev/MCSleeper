@@ -38,7 +38,8 @@ function startServer(c) {
     mc.close();
     execSync(config.launchCommand, {
         cwd: config.runDir,
-        stdio: "inherit"
+        stdio: "inherit",
+        shell: true
     });
 
     console.log(`${f.red}Restarting MCSleeper in ${config.restartTime} seconds!`);

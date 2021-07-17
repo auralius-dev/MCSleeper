@@ -29,7 +29,8 @@ config.errorLimit = 10;
 
 // Where the server will run.
 // IF THIS DOESN'T POINT TO WHERE YOUR SERVER JAR IS YOU WILL MESS A BUNCH
-// OF YOUR STUFF UP!
+// OF YOUR STUFF UP! Also, if you're running a batch/bash script at
+// the server jars' location, you most likely can just set this to ".".
 config.runDir = "./"
 
 // The launch command to be used when starting the server application.
