@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/auralius-dev/MCSleeper/issues"
   },
-  "homepage": "https://github.com/auralius-dev/MCSleeper#readme"
+  "homepage": "https://github.com/auralius-dev/MCSleeper#readme",
+  "publishConfig": {
+    "@auralius-dev:registry": "https://npm.pkg.github.com"
+  }
 }
