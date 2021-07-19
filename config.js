@@ -1,10 +1,10 @@
 let config = {}; // Do not touch this.
 
 // The message displayed in the server list.
-config.motdMessage = "§6SERVER §8| §7I am currently sleeping §8Zzz";
+config.motdMessage = "§6ServerMC §8| §7I am currently sleeping §8Zzz";
 
 // The message that displays when someone tries to join.
-config.kickMessage = "§aServer is waking up! Please wait about §650~ §aseconds.";
+config.kickMessage = "§aThe server is waking up! Please wait about §650~ §aseconds.";
 
 // The port that the server runs on.
 config.serverPort = "25565";
@@ -21,6 +21,12 @@ config.restartTime = 8;
 // If the server should start when viewed in the server list.
 config.startOnView = false;
 
+// If the server should be locked on start.
+config.lockOnStart = false;
+
+// If the server should relock after server shutdown.
+config.lockOnRestart = false;
+
 // If the server should print the ips of people who see the server.
 config.onViewMessages = true;
 
@@ -35,6 +41,15 @@ config.runDir = "./"
 
 // The launch command to be used when starting the server application.
 config.launchCommand = "java -Xms2048M -Xmx2048M -jar ./server.jar nogui";
+
+// Customise the commands if you want.
+config.helpCommand = "help";
+config.stopCommand = "stop";
+config.lockCommand = "lock";
+config.unlockCommand = "unlock";
+
+// Locked connect message.
+config.lockMessage = "§cThe server is currently locked! §aPlease wait or ask the owner.";
 
 // The server will not run unless you've set this to true.
 // Set this to true once you've configurated everything perfectly.
